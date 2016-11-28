@@ -1,0 +1,33 @@
+{
+  "name": "form-builder",
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.45",
+    "css-loader": "^0.26.0",
+    "html-webpack-plugin": "https://github.com/ampedandwired/html-webpack-plugin",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^1.0.0",
+    "typescript": "^2.0.3",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-build-notifier": "^0.1.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --watch-poll",
+    "build-demo": "cd demos && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumInformation/form-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuantumInformation/form-builder/issues"
+  },
+  "homepage": "https://github.com/QuantumInformation/form-builder#readme"
+}
