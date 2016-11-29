@@ -6,7 +6,7 @@ export class TextField implements IField {
               public placeHolder: String) {
   }
 
-  render() {
+  render():string {
     if (field.editable) {
       return `<div class='field'>
                 <input name='${this.name}' type='datetime-local'  value='${this.value}'

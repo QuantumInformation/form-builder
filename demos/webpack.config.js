@@ -11,7 +11,7 @@ const PATHS = {
 module.exports = {
 
   entry: {
-    app: PATHS.src + '/index.js'
+    app: PATHS.src + '/index.ts'
   },
   output: {
     path: PATHS.build,
